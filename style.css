@@ -1,0 +1,109 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+header {
+    background-color: #227CCA;
+    padding: 16px 0;
+    color: #fff;
+    display: flex;
+    border-bottom: 16px solid;
+    background-image: linear-gradient(to top, #fff 10%, rgba(0,0,0,0.0014) 70%);
+    justify-content: center;
+    text-transform: uppercase;
+}
+
+header img {
+    width: 50px;
+    margin-right: 12px;
+    margin-bottom: 20px;
+}
+
+.adicionar-tarefa {
+    display: flex;
+    padding: 16px;
+    text-transform: uppercase;
+    justify-content: center;
+}
+
+.adicionar-tarefa button {
+    margin-left: 10px;
+    background-color: #227CCA;
+    border: none;
+    padding: 8px;
+    border-radius: 6px;
+}
+
+.container {
+    background-color: #356EA0;
+    padding: 24px 0;
+    text-align: center;
+    display: none;
+}
+
+.container input {
+    margin-bottom: 16px;
+    padding: 4px;
+}
+
+.container button {
+    padding: 6px;
+    margin: 2px;
+}
+
+button {
+    font-family: "Poppins", sans-serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #fff;
+    background-color: #227CCA;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+}
+
+#botao-cancelar {
+    background-color: red;
+}
+
+#lista-tarefa {
+    margin-top: 10px;
+    background-color: #fff;
+    padding: 8px;
+    text-transform: uppercase;
+    font-weight: bold;
+    display: none;
+}
+
+#botao-concluido {
+    margin-left: 20px;
+    background-color: rgb(19, 153, 19);
+    padding: 4px;
+}
+
+#botao-apagar {
+    margin-left: 6px;
+    background-color: red;
+    padding: 4px;
+}
+
+.completed {
+    color: rgba(0, 0, 0, 0.356);
+    text-decoration: line-through;
+}
+
+footer {
+    position: absolute;
+    top: 100%;
+    background-color: #227CCA;
+    color: #fff;
+    width: 100%;
+    text-align: center;
+    padding: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    background-image: linear-gradient(to bottom, #fff 10%, rgba(0,0,0,0.0014) 90%);
+}
