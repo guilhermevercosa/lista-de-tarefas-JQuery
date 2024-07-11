@@ -1,3 +1,4 @@
+/* Reset global e estilos base */
 * {
     margin: 0;
     padding: 0;
@@ -5,6 +6,7 @@
     font-family: "Poppins", sans-serif;
 }
 
+/* Estilos para o cabeçalho */
 header {
     background-color: #227CCA;
     padding: 16px 0;
@@ -16,12 +18,14 @@ header {
     text-transform: uppercase;
 }
 
+/* Estilos para a imagem no cabeçalho */
 header img {
     width: 50px;
     margin-right: 12px;
     margin-bottom: 20px;
 }
 
+/* Estilos para a seção de adicionar tarefa */
 .adicionar-tarefa {
     display: flex;
     padding: 16px;
@@ -29,6 +33,7 @@ header img {
     justify-content: center;
 }
 
+/* Estilos para o botão na seção de adicionar tarefa */
 .adicionar-tarefa button {
     margin-left: 10px;
     background-color: #227CCA;
@@ -37,6 +42,7 @@ header img {
     border-radius: 6px;
 }
 
+/* Estilos para o container principal */
 .container {
     background-color: #356EA0;
     padding: 24px 0;
@@ -44,16 +50,19 @@ header img {
     display: none;
 }
 
+/* Estilos para inputs dentro do container */
 .container input {
     margin-bottom: 16px;
     padding: 4px;
 }
 
+/* Estilos para botões dentro do container */
 .container button {
     padding: 6px;
     margin: 2px;
 }
 
+/* Estilos gerais para botões */
 button {
     font-family: "Poppins", sans-serif;
     text-transform: uppercase;
@@ -65,10 +74,12 @@ button {
     cursor: pointer;
 }
 
+/* Estilos para o botão de cancelar */
 #botao-cancelar {
     background-color: red;
 }
 
+/* Estilos para a lista de tarefas */
 #lista-tarefa {
     margin-top: 10px;
     background-color: #fff;
@@ -78,23 +89,27 @@ button {
     display: none;
 }
 
+/* Estilos para o botão de concluir */
 #botao-concluido {
     margin-left: 20px;
     background-color: rgb(19, 153, 19);
     padding: 4px;
 }
 
+/* Estilos para o botão de apagar */
 #botao-apagar {
     margin-left: 6px;
     background-color: red;
     padding: 4px;
 }
 
+/* Estilos para tarefas concluídas */
 .completed {
     color: rgba(0, 0, 0, 0.356);
     text-decoration: line-through;
 }
 
+/* Estilos para o rodapé */
 footer {
     position: absolute;
     top: 100%;
